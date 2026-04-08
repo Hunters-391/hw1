@@ -60,4 +60,4 @@ cv2.destroyAllWindows()
 cap.release()
 cv2.destroyAllWindows()
 
-![顯示結果](./face.jpg)
+![顯示結果](./face.png)
