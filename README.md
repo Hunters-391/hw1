@@ -47,7 +47,7 @@ for (x, y, w, h) in faces:
                 cv2.circle(eye_color, center, radius, (0,255,0), 2)
                 break
 
-# 顯示圖片（Colab要用matplotlib）
+# 顯示圖片
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(img_rgb)
 plt.axis('off')
