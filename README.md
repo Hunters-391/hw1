@@ -79,4 +79,4 @@ if len(pupil_centers) >= 2:
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(img_rgb)
 plt.axis('off')
-
+(./face.png/)
