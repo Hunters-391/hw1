@@ -80,5 +80,5 @@ img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(img_rgb)
 plt.axis('off')
 <p align="center">
-  <img src="images/face.png" width="400">
+  <img src="/face.png" width="400">
 </p>
