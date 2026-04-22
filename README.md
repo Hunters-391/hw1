@@ -1,4 +1,6 @@
 # HW1
+嵌入式影像處理作業:人臉瞳孔偵測
+
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
