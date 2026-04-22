@@ -1,7 +1,3 @@
-# 嵌入式影像處理作業一:人臉瞳孔偵測
-載入人臉模型
-偵測臉 → 偵測眼睛
-在眼睛內找「黑色區域」＝瞳孔
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
@@ -80,4 +76,3 @@ if len(pupil_centers) >= 2:
 img_rgb = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)
 plt.imshow(img_rgb)
 plt.axis('off')
-![顯示結果](./face.png)
