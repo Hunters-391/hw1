@@ -1,11 +1,10 @@
-# HW1
-嵌入式影像處理作業:人臉瞳孔偵測
+# HW1 嵌入式影像處理作業:人臉瞳孔偵測
 
 import cv2
 import numpy as np
 from matplotlib import pyplot as plt
 
-# 讀圖（本地或Colab上傳都可）
+# 讀圖(Colab上傳）
 img = cv2.imread('face.jpg')  # 改成你的圖片
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
